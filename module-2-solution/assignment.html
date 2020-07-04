@@ -4,20 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Module-2 Asssignment</title>
-	<link rel="stylesheet" type="text/css" href="css/external.css">
-</head>
-<style type="text/css">
-	*{
+	<link rel="stylesheet" href="external.css">
+	<style type="text/css">
+		*{
 		box-sizing: border-box;
-		
 		
 	}
 	.container{
-	margin-right: 15px;
-	padding:15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding:10px;
 }
 .row{
 	width: 100%;
+
 
 }
 	h1{
@@ -29,48 +31,36 @@
 		border: 1px solid black;
 		margin-left: auto;
 		margin-right: auto;		
-		border-collapse: separate;
 		border-spacing: 15px;
+		
 	}
+	section{
+		width: 55px;
+		height: 20px;
+		border:1px solid black;
+		text-align: center;
+		padding:0px;
+		margin:0px;
+		float: right;
+	}
+	
 	p{
-		padding: 15px;
+		
+		margin: 10px;
 
 	}
 	#p1{
 		background-color: pink;
-		width: 55px;
-		height: 20px;
-		border:1px solid black;
-		text-align: center;
-		padding:0px;
-		margin:0px;
-		margin-bottom: 10px;
-		float: right;
+		
 
 	}
 	#p2{
 		background-color: yellow;
-		width: 55px;
-		height: 20px;
-		border:1px solid black;
-		text-align: center;
-		padding:0px;
-		margin:0px;
-		margin-bottom: 10px;
 		
-		float: right;
 	}
 	#p3{
 		background-color: green;
-		width: 55px;
-		height: 20px;
-		border:1px solid black;
-		text-align: center;
-		padding:0px;
-		margin:0px;
-		margin-bottom: 10px;
 		
-		float: right;
 	}
 	@media (min-width: 992px){
 		.col-lg-4{
@@ -94,16 +84,18 @@
     		width:100%;
     	}
 }
-</style>
+	</style>
+</head>
+
 <body>
 	<h1> Our Menu</h1>
 <div class="container">
 	<div class="row">
-		<div class="col-lg-4 col-md-6 col-sm-12"><p id="p1">Chicken</p>
+		<div class="col-lg-4 col-md-6 col-sm-12"><section id="p1">Chicken</section>
 			<p>The boy lay prone in the grass, his chin resting on his hands. He suddenly found himself overwhelmed by a heightened awareness of the tangled stems and roots, a forest in microcosm, a transfigured world of ants and beetles and even - though he wouldn't have known the details at the time - of soil bacteria by the billions, silently and invisibly shoring up the economy of the micro-world.</p></div>
-		<div class="col-lg-4 col-md-6 col-sm-12"><p id="p2">Beef</p>
+		<div class="col-lg-4 col-md-6 col-sm-12"><section id="p2">Beef</section>
 			<p>The boy lay prone in the grass, his chin resting on his hands. He suddenly found himself overwhelmed by a heightened awareness of the tangled stems and roots, a forest in microcosm, a transfigured world of ants and beetles and even - though he wouldn't have known the details at the time - of soil bacteria by the billions, silently and invisibly shoring up the economy of the micro-world.</p></div>
-		<div class="col-lg-4 col-md-12 col-sm-12"><p id="p3">Sushi</p>
+		<div class="col-lg-4 col-md-12 col-sm-12"><section id="p3">Sushi</section>
 			<p>The boy lay prone in the grass, his chin resting on his hands. He suddenly found himself overwhelmed by a heightened awareness of the tangled stems and roots, a forest in microcosm, a transfigured world of ants and beetles and even - though he wouldn't have known the details at the time - of soil bacteria by the billions, silently and invisibly shoring up the economy of the micro-world.</p></div>
 	</div>
 </div>
